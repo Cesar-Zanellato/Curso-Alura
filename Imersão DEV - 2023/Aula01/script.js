@@ -1,5 +1,5 @@
-var valorEmDolar = 64;
-var cotacaoDoDolar = 5.32;
+let valorEmDolar = 64;
+const cotacaoDoDolar = 5.32;
 
 var valorEmReal = valorEmDolar * cotacaoDoDolar;
 valorEmReal = valorEmReal.toFixed(2);
