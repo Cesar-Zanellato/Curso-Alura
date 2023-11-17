@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ec/ca/c7/eccac773-059c-1191-375e-92d3fd0b9598/AppIcon-Alura-1x_U007emarketing-0-10-0-85-220.png/230x0w.webp" type="image/x-icon">
+    <title>Aula 05 - Classificação</title>
+</head>
+<body>
+    <h1>Classificação Alura</h1>
+    <input type="text" id="campoNomeJogador" placeholder="digite o nome do jogador" />
+    <button onClick="criarJogador()">Adicionar novo jogador</button>
+
+    <table style="width:100%">
+        <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Vitórias</th>
+            <th>Empates</th>
+            <th>Derrotas</th>
+            <th>Pontos</th>
+            <th colspan="5">Ações</th>
+        </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+        </tbody>
+    </table>
+    <button onClick="apagarJogadores()">Apagar todos os jogadores</button>
+
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="logoAlura">
+
+    <script src="script.js"></script>
+</body>
+</html>
