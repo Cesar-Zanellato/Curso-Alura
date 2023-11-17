@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ec/ca/c7/eccac773-059c-1191-375e-92d3fd0b9598/AppIcon-Alura-1x_U007emarketing-0-10-0-85-220.png/230x0w.webp" type="image/x-icon">
-    <title>Aula 03 - Aluraflix</title>
+    <title>Aula 04 - Aluraflix</title>
 </head>
 <body>
     <div class="container">
@@ -13,9 +13,19 @@
           Aluraflix
         </h1>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="logoImersaoDev" alt="">
+        <p class="subTitulo">
+          Qual seu filme favorito?
+        </p>
+        <div class="divInput">
+          <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+          <input type="text" id="trailer" name="filme" placeholder="Insira endereço do trailer">
+          <p id="mensagemDeErro"></p>
+          <button onClick="adicionarFilme()">Adicionar Filme</button>
+        </div>
     </div>
+    <div id="listaFilmes"></div>
     <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="logoAlura">
-    
+    </body>
     <script src="script.js"></script>
 </body>
 </html>
